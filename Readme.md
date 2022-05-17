@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Alexei Ishtuganov](https://up.htmlacademy.ru/htmlcss/34/user/1853321).
-* Наставник: `Неизвестно`.
+* Наставник: [`Евгений Петров`](https://htmlacademy.ru/profile/id617077).
 
 ---
 
