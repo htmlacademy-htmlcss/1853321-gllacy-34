@@ -41,7 +41,47 @@
       </li>
     </ul>
   </header>
-  
+  <main class="main-inner">
+    <header class="inner-header">
+      <h1 class="inner-header-title">Сливочное мороженое</h1>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link">Каталог</a>
+        </li>
+      </ul>
+    </header>
+    <form class="catalog-form" action="https://echo.htmlacademy.ru/" method="post">
+        <select class="form-select" name="popular">
+          <option class="form-option" value="popular">по популярности</option>
+          <option class="form-option" value="price">по цене</option>
+          <option class="form-option" value="fat">по жирности</option>
+        </select>
+        <label class="form-range__title" for="control">Цена: 100 ₽ – 500 ₽</label>
+        <input class="form-range__input" id="control" type="range" min="100" max="500">
+        <input type="radio" name="choose_the_Fat" id="0" value="0">
+        <label for="0">0%</label>
+        <input type="radio" name="choose_the_Fat" id="10" value="10">
+        <label for="10">10%</label>
+        <input type="radio" name="choose_the_Fat" id="smaller-30" value="smaller-30">
+        <label for="smaller-30">до 30%</label>
+        <input type="radio" name="choose_the_Fat" id="over-30" value="over-30">
+        <label for="over-30">Свыше 30%</label>
+        <input type="checkbox" name="fillers" id="сhocolate" value="сhocolate">
+        <label for="сhocolate">школадные</label>
+        <input type="checkbox" name="fillers" id="sugar_sprinkling" value="sugar_sprinkling">
+        <label for="sugar_sprinkling">сахарные посыпки</label>
+        <input type="checkbox" name="fillers" id="fruits" value="fruits">
+        <label for="fruits">фрукты</label>
+        <input type="checkbox" name="fillers" id="syrups" value="syrups">
+        <label for="syrups">сиропы</label>
+        <input type="checkbox" name="fillers" id="jam" value="jam">
+        <label for="jam">джемы</label>
+        <button type="submit">Применить</button>
+    </form>
+  </main>
   <footer class="footer">
     <ul class="social-list">
       <li class="social-list-item">
