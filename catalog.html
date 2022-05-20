@@ -63,15 +63,15 @@
         <input class="form-range__input" id="control" type="range" min="100" max="500">
         <input type="radio" name="choose_the_Fat" id="0" value="0">
         <label for="0">0%</label>
-        <input type="radio" name="choose_the_Fat" id="10" value="10">
-        <label for="10">10%</label>
+        <input type="radio" name="choose_the_Fat" id="10" value="10" checked>
+        <label for="10">до 10%</label>
         <input type="radio" name="choose_the_Fat" id="smaller-30" value="smaller-30">
         <label for="smaller-30">до 30%</label>
         <input type="radio" name="choose_the_Fat" id="over-30" value="over-30">
-        <label for="over-30">Свыше 30%</label>
-        <input type="checkbox" name="fillers" id="сhocolate" value="сhocolate">
+        <label for="over-30">выше 30%</label>
+        <input type="checkbox" name="fillers" id="сhocolate" value="сhocolate" checked>
         <label for="сhocolate">школадные</label>
-        <input type="checkbox" name="fillers" id="sugar_sprinkling" value="sugar_sprinkling">
+        <input type="checkbox" name="fillers" id="sugar_sprinkling" value="sugar_sprinkling" checked>
         <label for="sugar_sprinkling">сахарные посыпки</label>
         <input type="checkbox" name="fillers" id="fruits" value="fruits">
         <label for="fruits">фрукты</label>
@@ -81,6 +81,135 @@
         <label for="jam">джемы</label>
         <button type="submit">Применить</button>
     </form>
+    <section class="catalog-card">
+        <ul class="product-card-list">
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Малинка</h5>
+            <p class="product-card__subtext">Сливочное мороженое с малиновым джемом</p>
+            <b class="product-card__price">310 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Фисташка</h5>
+            <p class="product-card__subtext">Фисташковый пломбир с кусочками шоколада</p>
+            <b class="product-card__price">340 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Черника</h5>
+            <p class="product-card__subtext">Крем-брюле с черничным джемом</p>
+            <b class="product-card__price">330 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Бабл-гам</h5>
+            <p class="product-card__subtext">Ванильный пломбир со сладкой посыпкой</p>
+            <b class="product-card__price">320 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Ежевика</h5>
+            <p class="product-card__subtext">Сливочное мороженое с ежевичным джемом</p>
+            <b class="product-card__price">330 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Банан</h5>
+            <p class="product-card__subtext">Сливочный пломбир с банановым вкусом</p>
+            <b class="product-card__price">340 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Шоколадка</h5>
+            <p class="product-card__subtext">Классический шоколадный пломбир</p>
+            <b class="product-card__price">270 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Клубничка</h5>
+            <p class="product-card__subtext">Сливочный пломбир с клубничным вкусом</p>
+            <b class="product-card__price">300 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Лимон</h5>
+            <p class="product-card__subtext">Освежающий лимонный сорбет</p>
+            <b class="product-card__price">310 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Ментол</h5>
+            <p class="product-card__subtext">Сливочный пломбир с ментоловым сиропом</p>
+            <b class="product-card__price">320 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Орешек</h5>
+            <p class="product-card__subtext">Фисташковый пломбир с шоколадным сиропом</p>
+            <b class="product-card__price">360 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="product-card-list-item">
+            <h5 class="product-card__title">Крем-брюле</h5>
+            <p class="product-card__subtext">Классическое крем-брюле</p>
+            <b class="product-card__price">280 ₽/кг</b>
+            <button class="product-card__button" type="button">
+            <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-prev pagination-disabled">
+              <span class="visually-hidden">Предыдущая страница</span>
+            </a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">5</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-next" href="#">
+              <span class="visually-hidden">Следующая страница</span>
+            </a>
+          </li>
+        </ul>
+        <button class="pagination-button pagination-show-more" type="button">Показать ещё</button>
+    </section>
+
   </main>
   <footer class="footer">
     <ul class="social-list">
