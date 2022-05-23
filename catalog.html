@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
-<body class="catalog-body">
+<body>
   <header class="catalog-header">
     <a class="logo-link" href="index.html">
       <img src="./images/logo/gllacy-logo.svg" alt="Логотип компании Глейси Шоп." width="137" height="56">
@@ -25,7 +26,7 @@
       </ul>
     </nav>
     <div class="user-menu">
-      <a href="tel:+78005558628">+7 800 555-86-28</a>
+      <a class="user-menu-phone" href="tel:+78005558628">+7 800 555-86-28</a>
       <a class="user-menu-link" href="#">
         <span class="visually-hidden">Найти</span>
       </a>
@@ -54,13 +55,13 @@
         </select>
         <label class="form-range__title" for="control">Цена: 100 ₽ – 500 ₽</label>
         <input class="form-range__input" id="control" type="range" min="100" max="500">
-        <input type="radio" name="choose_the_Fat" id="0" value="0">
+        <input type="radio" name="choose_the_fat" id="0" value="0">
         <label for="0">0%</label>
-        <input type="radio" name="choose_the_Fat" id="10" value="10" checked>
+        <input type="radio" name="choose_the_fat" id="10" value="10" checked>
         <label for="10">до 10%</label>
-        <input type="radio" name="choose_the_Fat" id="smaller-30" value="smaller-30">
+        <input type="radio" name="choose_the_fat" id="smaller-30" value="smaller-30">
         <label for="smaller-30">до 30%</label>
-        <input type="radio" name="choose_the_Fat" id="over-30" value="over-30">
+        <input type="radio" name="choose_the_fat" id="over-30" value="over-30">
         <label for="over-30">выше 30%</label>
         <input type="checkbox" name="fillers" id="сhocolate" value="сhocolate" checked>
         <label for="сhocolate">школадные</label>
@@ -243,7 +244,6 @@
         </ul>
         <button class="pagination-button pagination-show-more" type="button">Показать ещё</button>
     </section>
-
   </main>
   <footer class="footer">
     <ul class="social-list">
@@ -265,7 +265,9 @@
     </ul>
     <ul class="footer-list">
       <li class="footer-list-item">
-        <a class="footer-list-item__link" href="#" target="_blank">Для поставщиков</a>
+        <a class="footer-list-item__link" href="#" target="_blank">
+          <span class="footer-list-item--heart">Для поставщиков</span>
+        </a>
       </li>
       <li class="footer-list-item">
         <a class="footer-list-item__link" href="#" target="_blank">О производстве</a>
@@ -280,7 +282,7 @@
     <a class="footer-htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">
       <img class="html-academy" src="./images/logo/logo_htmlacademy.svg" alt="Курсы для каждого, кто хочет окунуться в мир вёрстки и программирования." width="93" height="27" >
     </a>
-    <p class="footer-about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">.html academy</a></p>
+    <p class="footer-about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">.html academy</a>© 2021</p>
   </footer>
 </body>
 
