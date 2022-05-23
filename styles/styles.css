@@ -38,8 +38,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "inter", sans-serif;
-
+  font-family: inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -95,7 +94,6 @@ img {
 }
 .user-menu-link {
   font-size: 14px;
-  line-height: 20px;
   text-decoration: none;
   color: inherit;
 
@@ -281,7 +279,7 @@ img {
 }
 /* sending */
 .sending {
-  background-image: url(../images/background//sending.jpg);
+  background-image: url(../images/background/sending.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
