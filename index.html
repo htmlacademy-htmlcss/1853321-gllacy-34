@@ -9,33 +9,36 @@
 
 <body>
   <header class="main-header">
-    <a class="logo-link" href="index.html">
-      <img src="./images/logo/gllacy-logo.svg" alt="Логотип компании Глейси Шоп." width="137" height="56">
-    </a>
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Каталог</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Доставка и оплата</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">О компании</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="user-menu">
-      <a class="user-menu-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-      <a class="user-menu-link" href="#">
-        <span class="visually-hidden">Найти</span>
+    <div class="nav-wrapper">
+      <a class="logo-link" href="index.html">
+        <img src="./images/logo/gllacy-logo.svg" alt="Логотип компании Глейси Шоп." width="137" height="56">
       </a>
-      <a class="user-menu-link" href="#">Вход</a>
-      <a class="user-menu-link" href="#">2 товара</a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Доставка и оплата</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О компании</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-menu">
+        <a class="user-menu-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <a class="user-menu-link" href="#">
+          <span class="visually-hidden">Найти</span>
+        </a>
+        <a class="user-menu-link" href="#">Вход</a>
+        <a class="user-menu-link" href="#">2 товара</a>
+      </div>
     </div>
   </header>
-  <main class="index-main">
-    <h1 class="visually-hidden">Интернет магазин мороженного "Глейси-Шоп"</h1>
+  <main class="index-main main-container">
+    <div class="page-container">
+      <h1 class="visually-hidden">Интернет магазин мороженного "Глейси-Шоп"</h1>
     <section class="slider">
       <h2 class="visually-hidden">Наши лучшие варианты мороженного</h2>
       <ul class="slider-list">
@@ -95,17 +98,20 @@
     </section>
     <section class="action">
       <h2 class="action_title">Заказывайте мороженое и получайте подарки!</h2>
-      <div class="action-card">
-        <h3 class="action-card-title">Малинка даром!</h3>
-        <p class="action-card-title__subtext">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
-        <a class="button" href="#">Хочу подарок</a>
-        <img class="action-card__images" src="./images/action/strawberry.png" alt="Рожок с малинкой." width="219" height="268">
-      </div>
-      <div class="action-card">
-        <h3 class="action-card-title">Маршмеллоу даром!</h3>
-        <p class="action-card-title__subtext">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
-        <a class="button" href="#">Хочу подарок</a>
-        <img class="action-card__images" src="./images/action/marshmallow.png" alt="Рожок с маршмеллоу." width="219" height="268">
+        <div class="action-wrapper">
+          <div class="action-card">
+            <h3 class="action-card-title">Малинка даром!</h3>
+            <p class="action-card-title__subtext">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
+            <a class="button" href="#">Хочу подарок</a>
+            <img class="action-card__images" src="./images/action/strawberry.png" alt="Рожок с малинкой." width="219" height="268">
+          </div>
+          <div class="action-card">
+            <h3 class="action-card-title">Маршмеллоу даром!</h3>
+            <p class="action-card-title__subtext">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
+            <a class="button" href="#">Хочу подарок</a>
+            <img class="action-card__images" src="./images/action/marshmallow.png" alt="Рожок с маршмеллоу." width="219" height="268">
+          </div>.
+
       </div>
     </section>
     <section class="assortment">
@@ -160,29 +166,29 @@
     <section class="about">
       <h2 class="about-title">Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного проиводства на развес</h2>
       <ul class="about-list">
-        <li class="about-list-item">Всё наше мороженое изготавливается на собственном производстве с использованием
-          современного оборудования и проверенных временем технологий.</li>
-        <li class="about-list-item">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все
-          ингредиенты и добавки произведены из натурального сырья.</li>
-        <li class="about-list-item">Закупка ингредиентов производится только у проверенных фермерских хозяйств, с
-          которыми нас связывает долговременное сотрудничество.</li>
-        <li class="about-list-item">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт
-          мороженому растаять и позволяет сохранить превосходный вкус.</li>
+        <li class="about-list-item">Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.</li>
+        <li class="about-list-item">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.</li>
+        <li class="about-list-item">Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает долговременное сотрудничество.</li>
+        <li class="about-list-item">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</li>
       </ul>
     </section>
     <section class="blog">
       <h2 class="visually-hidden">Получайте лучшие предложения</h2>
-      <article class="article">
-        <h3 class="article-title">10 способов сервировки фруктовых щербетов к столу</h3>
-        <p class="article-text">Новое в нашем блоге</p>
-      </article>
-      <div class="distribution">
-        <h3 class="visually-hidden">Письменная рассылка на электронную</h3>
-        <p class="distribution-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-        <form class="distribution-form" action="https://echo.htmlacademy.ru/" metod="get">
-          <input class="distribution-form__field-input" type="email" placeholder="email@example.com" required>
-          <button class="distribution-form__button" type="submit">Отправить</button>
-        </form>
+      <div class="blog-wrapper">
+        <article class="article">
+          <div class="article-wrapper">
+            <p class="article-text">Новое в нашем блоге</p>
+            <h3 class="article-title">10 способов сервировки фруктовых щербетов к столу</h3>
+          </div>
+        </article>
+        <div class="distribution">
+          <h3 class="visually-hidden">Письменная рассылка на электронную</h3>
+          <p class="distribution-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+          <form class="distribution-form" action="https://echo.htmlacademy.ru/" metod="get">
+            <input class="distribution-form__field-input" type="email" placeholder="email@example.com" required>
+            <button class="distribution-form__button" type="submit">Отправить</button>
+          </form>
+        </div>
       </div>
     </section>
     <section class="sending">
@@ -218,6 +224,7 @@
         <a href="#" class="feedback-button">Форма обратной связи</a>
       </div>
     </section>
+    </div>
   </main>
   <footer class="footer">
     <ul class="social-list">
